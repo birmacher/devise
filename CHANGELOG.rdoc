@@ -1,6 +1,7 @@
 == master
 
 * bug fix
+  * `rails g devise:views users` copies views with scoped `render` call (by @nashby)
   * Fix inheriting mailer templates from `Devise::Mailer`
 
 == 2.2.3
